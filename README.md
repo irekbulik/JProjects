@@ -9,7 +9,8 @@ Small J projects to play on the phone
 	- 1 } and 2 } return alpha and beta denisties
   load 'uhf_1D_hubbard.ijs'
    1 } solve (4;4;4)
-
+| DENSITY MATRIX |       |             |           |
+|----------------|-------|-------------|-----------|
 |  0.908073  | 0.193682  |  _0.0919268 | 0.193682  |
 |  0.193682  | 0.0919268 |  0.193682   | 0.0919268 |
 | _0.0919268 | 0.193682  | 0.908073    | 0.193682  |
