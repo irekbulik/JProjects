@@ -9,3 +9,4 @@ Small J projects to play on the phone
      - on my iPhone, I added band structure analysis, but it is not here 
      
   * ulam spiral, inspired by youtube video
+
