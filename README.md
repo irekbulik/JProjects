@@ -16,7 +16,7 @@ Small J projects to play on the phone
 
      - super fast :) 
 	-  6!:2 'solve (400;4;400)'   9.58s 
-     - the guess is pure antifero, so while you can run dopped system, it probably wont converge
+     - the guess is pure antifero, so while you can run dopped system, it probably won't converge
      - on my iPhone, I added band structure analysis, but it is not here 
      
   * ulam spiral, inspired by youtube video
