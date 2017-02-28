@@ -33,7 +33,7 @@ it =. 1
 mi =. 250
 deo=. ne fd U ff mg ns
 den=. ne fd U ff deo
-while. ( (it<mi) */ ( (den norm deo) > 1e_8) )
+while. ( (it<mi) * ( (den norm deo) > 1e_8) )
    do. deo =. den 
        den =. ne fd U ff den 
        it  =. >: it 
