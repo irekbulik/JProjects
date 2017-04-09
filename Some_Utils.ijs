@@ -20,6 +20,9 @@ NB. using p:, but well, it has a concept worth learning:
 NB. Looping over function: f^:(condition)^:_ which applies function untill condition is 1. 
 NB. for example,  +:^:(1223&>)^:_ (1) computed the first power of 2 that is larger than 1223. 
 
+NB. Fibonacci
+  fib =: 3 : '{.( |.@({. , +/))^:(<:y) (1x 0x)'
+
       
       
 
