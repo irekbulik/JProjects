@@ -22,6 +22,7 @@ NB. for example,  +:^:(1223&>)^:_ (1) computed the first power of 2 that is larg
 
 NB. Fibonacci
   fib =: 3 : '{.( |.@({. , +/))^:(<:y) (1x 0x)'
+  to_dig =: ".@,"0@":
 
       
       
