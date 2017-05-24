@@ -32,5 +32,6 @@ NB. Print precision wjd":       of 0jd":
 to_digits =: 10&#.^:_1
 
 
-Check Goldbach conjecture...
-%&2(0&=@(2&|)#])~./:~,+/~p:i.100
+Check Goldbach conjecture... gives the smallest number in the range of possible sums 
+that fails to be expressed as sum of two primes. Qute memory consuming. 
++:{.I.0<|((>:@i.@#)-])<:%&2(0&=@(2&|)#])~./:~,+/~p:i.m[m=:1000
