@@ -32,4 +32,5 @@ NB. Print precision wjd":       of 0jd":
 to_digits =: 10&#.^:_1
 
 
-
+Check Goldbach conjecture...
+%&2(0&=@(2&|)#])~./:~,+/~p:i.100
