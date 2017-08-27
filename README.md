@@ -19,5 +19,4 @@ Small J projects to play on the phone
      - the guess is pure antifero, so while you can run dopped system, it probably won't converge
      - on my iPhone, I added band structure analysis, but it is not here 
      
-  * ulam spiral, inspired by youtube video
-
+  
