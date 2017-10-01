@@ -7,7 +7,5 @@ NB. Find the 15 ditig primes that appear in pi
 NB. n pe m finds n digits primes to be found in m digits of pi. leading zeros are ignored.
 pe =: 4 : ' (  0&< # ])~.(* 1&p:) (x:@". * ( 0&<@".@{.) )"1 (x [\":<.@o.10x^y)'
 
-NB. 
-Generate unbiased permutation of array. Can be used on strings and boxes as well
-
+NB. Generate unbiased permutation of array. Can be used on strings and boxes as well
 deal_array =:  ((#?#){])
