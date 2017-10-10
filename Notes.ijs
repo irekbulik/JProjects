@@ -16,7 +16,10 @@ ee =. 4 : ' (  0&< # ])~.(* 1&p:) ((".@,&(120}a.)) * ( 0&<@".@{.) )"1 (x[\":@<.(
 NB. but it can be fixed, but it is slower.The key is that inverse of gamma function runs out of domain above but gives us minimal 
 NB. number of terms. Here, we take wayy too many.
 ee =. 4 : ' (  0&< # ])~.(* 1&p:) ((".@,&(120}a.)) * ( 0&<@".@{.) )"1 (x[\":@<.(10x^<:y)*(+/%!x:i.( y >. 20)))'
-
+NB. we can also compute digits of golden ratio. 
+digs_of_phi =. 3 : '<.(10x^<:y)*-:>:%&(10x^>:y)((>.@((10x^>:y)&*@-:@(+5&%)@%&(10x^>:y)))^:_ (10x^>:y))'
+NB. and use it here. 
+phie =. 4 : ' (  0&< # ])~.(* 1&p:) ((".@,&(120}a.)) * ( 0&<@".@{.) )"1 (x[\": digits_of_phi y)'
 
 
 NB. Generate unbiased permutation of array. Can be used on strings and boxes as well
