@@ -21,6 +21,6 @@ digs_of_phi =. 3 : '<.(10x^<:y)*-:>:%&(10x^>:y)(>.@(-:@(+5&%)&.(%&(10x^>:y)))^:_
 NB. and use it here. 
 phie =. 4 : ' (  0&< # ])~.(* 1&p:) ((".@,&(120}a.)) * ( 0&<@".@{.) )"1 (x[\": digits_of_phi y)'
 NB. generate n digits of sqrt of an integer. intege sqrt_n digits 
-digs_of_n =. (4 : ',&(120}a.)&.":(>.@(-:@(+x&%)&.(%&(10x^>:y)))^:_ (10x^>:y))')"0
+digs_of_n =. (4 : '".,&(120}a.)y&{.":(>.@(-:@(+x&%)&.(%&(10x^>:y)))^:_ (10x^>:y))')"0
 NB. Generate unbiased permutation of array. Can be used on strings and boxes as well
 deal_array =:  ((#?#){])
