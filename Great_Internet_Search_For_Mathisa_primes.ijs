@@ -1,4 +1,4 @@
-NB. We define Mathisa Prime as prime obtained by concatenation of nth Pascal Triangle rows. 
+NB. We define Mathisa Prime as prime obtained by concatenation of nth Pascal Triangle row. 
 NB. 
 NB. Funtion to search for Mathisa Primes. There first 3 are for n=1,8,29
 NB. 11
