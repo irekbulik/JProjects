@@ -1,3 +1,5 @@
+NB. We define Matthisa Prime as prime obtained by concatenation of nth Pascal Triangle rows. 
+NB. 
 NB. Funtion to search for Matthisa Primes. There first 3 are for n=1,8,29
 NB. 11
 NB. 18285670562881
