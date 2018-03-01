@@ -1,6 +1,6 @@
-## JProjects
+# JProjects
 
-# primes sets architecture to link J with PARI so we can have faster prime checking. I will add more functionality as we go.
+## primes sets architecture to link J with PARI so we can have faster prime checking. I will add more functionality as we go.
 
 Small J projects to play on the phone 
 
