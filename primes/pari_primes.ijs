@@ -14,4 +14,6 @@ NB. echo 'Time J ' , (": (6!:2) '1 p: m_prime') , 's'
 
 f =: 3 : '(0&,+,&0)^:y (1x)'
 pari_mp =: 3 : '":@(fac_p)@".@,&(120}a.)@(;@:(<@":"0)@f)"0 y'
+NB. We can leave it in string form
+pari_mp =: 3 : '":@(fac_p)@(;@:(<@":"0)@f)"0 y'
 J_mp =: 3 : '":@(1&p:)@".@,&(120}a.)@(;@:(<@":"0)@f)"0 y'
